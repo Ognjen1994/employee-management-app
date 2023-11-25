@@ -27,7 +27,6 @@ const employeeApi = {
       const response = await axios.post(`${BASE_URL}/employees`, employee);
       return response.data;
     } catch (error) {
-      console.log('Fejlopvao sam');
       throw new Error('Failed to add employee');
     }
   },

@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { EmployeeSchema } from '../../validation/employeeSchema';
 import { Employee } from '../../types/employee';
-import { BUTTON_TEXT, FORM_TITLE } from '../shared/constants';
+import { BUTTON_TEXT, FORM_TITLE } from './config/constants';
 import EmployeeGridItem from './EmployeeGridItem';
 import { gridItems } from './config/employeeFormConfig';
 import useEmployeeActions from '../../hooks/useEmployeeActions';

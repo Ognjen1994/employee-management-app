@@ -8,7 +8,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import EmployeeForm from './EmployeeForm';
 import { EMPLOYEE_COLUMNS } from './config/columns';
-import { EMPLOYEE_LIST_TITLE } from '../shared/constants';
+import { EMPLOYEE_LIST_TITLE } from './config/constants';
 import useEmployeeActions from '../../hooks/useEmployeeActions';
 
 interface EmployeeListProps {
