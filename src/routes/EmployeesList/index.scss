@@ -1,0 +1,13 @@
+.page-title {
+  margin-bottom: 60px;
+}
+
+.add-employee {
+  float: right;
+}
+
+.employee-lists {
+  & > .active-employee-list {
+    margin-bottom: 100px;
+  }
+}
